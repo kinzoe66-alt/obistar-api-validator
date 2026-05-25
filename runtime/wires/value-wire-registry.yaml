@@ -1,0 +1,35 @@
+value_wires:
+  money:
+    weight: 10
+    desired_signals:
+      - billing_state_change
+      - refund_state_change
+      - credit_balance_change
+
+  sensitive_data:
+    weight: 9
+    desired_signals:
+      - cross_account_visibility
+      - pii_access
+      - private_resource_access
+
+  authorization:
+    weight: 8
+    desired_signals:
+      - authorization_context_change
+      - role_boundary_shift
+      - token_scope_drift
+
+  workflow_trust:
+    weight: 7
+    desired_signals:
+      - approval_bypass
+      - workflow_state_transition
+      - malformed_authority_inheritance
+
+  evidence_quality:
+    weight: 6
+    desired_signals:
+      - reproducible
+      - replay_stable
+      - clear_manual_review_path

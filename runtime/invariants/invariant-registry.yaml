@@ -1,0 +1,25 @@
+invariants:
+  - id: AUTHORIZATION_CONTINUITY
+    value_wire: authorization
+    must_remain_true: authorization context must not deform across workflow transitions
+    monetary_relevance: high
+
+  - id: TENANT_ISOLATION
+    value_wire: sensitive_data
+    must_remain_true: one tenant must not observe or influence another tenant state
+    monetary_relevance: critical
+
+  - id: FINANCIAL_STATE_INTEGRITY
+    value_wire: money
+    must_remain_true: financial state must not mutate outside intended authority
+    monetary_relevance: critical
+
+  - id: WORKFLOW_AUTHORITY_INHERITANCE
+    value_wire: workflow_trust
+    must_remain_true: workflow authority must not be inherited incorrectly
+    monetary_relevance: high
+
+  - id: REPLAY_DETERMINISM
+    value_wire: evidence_quality
+    must_remain_true: findings must be replayable and reproducible
+    monetary_relevance: high

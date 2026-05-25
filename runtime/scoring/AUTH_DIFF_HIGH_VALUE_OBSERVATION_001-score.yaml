@@ -1,0 +1,8 @@
+consequence_score:
+  score: 16
+  classification: MEDIUM_VALUE_REVIEW
+  active_value_wires:
+  - evidence_quality
+  - continuity_deformation
+  - trust_boundary_deformation
+

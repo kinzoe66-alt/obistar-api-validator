@@ -1,0 +1,14 @@
+evidence_package:
+  continuity_id: cid-20260524155658-dbd9f56ed720-AUTH_DIFF_HIGH_VALUE_OBSERVATION_001
+  source_replay: runtime\replay\cid-20260524155658-dbd9f56ed720-AUTH_DIFF_HIGH_VALUE_OBSERVATION_001.yaml
+  action_id: AUTH_DIFF_HIGH_VALUE_OBSERVATION_001
+  authorized_scope: true
+  active_symbols:
+  - AUTHORIZATION_CONTEXT_CHANGE
+  - WORKFLOW_STATE_TRANSITION
+  - TRUST_BOUNDARY_SHIFT
+  classification: REVIEW_REQUIRED
+  result: LAWFUL_FOR_MANUAL_REVIEW
+  review_state: queued_for_manual_review
+  autonomous_submission: false
+  governed_validation_only: true

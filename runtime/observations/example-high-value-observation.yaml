@@ -1,0 +1,30 @@
+observation:
+  id: high_value_observation_001
+  surface_id: local_surface_001
+  source: synthetic_local_example
+
+  authorized_scope: true
+
+  value_signals:
+    money: false
+    sensitive_data: true
+    authorization: true
+    workflow_trust: true
+
+  authorization_context:
+    before: user_scope
+    after: elevated_workflow_state
+    changed: true
+
+  workflow_state:
+    before: initialized
+    after: privileged_transition_observed
+    changed: true
+
+  trust_boundary:
+    shifted: true
+
+  evidence:
+    reproducible: true
+    destructive_mutation: false
+    autonomous_submission: false

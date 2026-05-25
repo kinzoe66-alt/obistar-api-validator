@@ -1,9 +1,10 @@
-current_state:
+manual_review_item:
   continuity_id: cid-20260524155658-dbd9f56ed720-AUTH_DIFF_HIGH_VALUE_OBSERVATION_001
-  tunnel: governed_authorization_differential_continuity
+  source_package: runtime\evidence\packages\cid-20260524155658-dbd9f56ed720-AUTH_DIFF_HIGH_VALUE_OBSERVATION_001.yaml
   classification: REVIEW_REQUIRED
   active_symbols:
   - AUTHORIZATION_CONTEXT_CHANGE
   - WORKFLOW_STATE_TRANSITION
   - TRUST_BOUNDARY_SHIFT
-  terminal_state: queued_for_manual_review
+  review_state: queued_for_manual_review
+  autonomous_submission: false
