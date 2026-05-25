@@ -1,0 +1,14 @@
+authorized_scope:
+  surfaces: []
+
+  required_before_validation:
+    - surface_id
+    - scope_authority
+    - allowed_methods
+    - mutation_policy
+    - evidence_policy
+
+  default_policy:
+    mutation_allowed: false
+    replay_required: true
+    manual_review_required: true

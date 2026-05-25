@@ -1,0 +1,23 @@
+tunnel:
+  id: governed_authorization_differential_continuity
+  environment: api_validation
+  authority: authorized_scope_only
+  legality: governed_validation_only
+  continuity: replay_required
+
+  validates:
+    - authorization_context_differential
+    - workflow_state_transition
+    - trust_boundary_change
+    - replay_consistency
+    - evidence_completeness
+
+  blocked:
+    - uncontrolled_execution
+    - out_of_scope_operation
+    - autonomous_submission
+    - destructive_mutation
+    - credential_exposure
+
+  terminal_state:
+    - queued_for_manual_review

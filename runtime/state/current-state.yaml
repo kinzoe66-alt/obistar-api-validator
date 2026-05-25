@@ -1,0 +1,8 @@
+current_state:
+  continuity_id: cid-20260524144601-84bca5650213-AUTH_DIFF_EXAMPLE_001
+  tunnel: governed_authorization_differential_continuity
+  classification: REVIEW_REQUIRED
+  active_symbols:
+  - AUTHORIZATION_CONTEXT_CHANGE
+  - WORKFLOW_STATE_TRANSITION
+  terminal_state: queued_for_manual_review

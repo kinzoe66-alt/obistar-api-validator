@@ -1,0 +1,20 @@
+symbols:
+  - id: AUTHORIZATION_CONTEXT_CHANGE
+    status: seed
+    meaning: observed change in authorization-relevant context
+
+  - id: WORKFLOW_STATE_TRANSITION
+    status: seed
+    meaning: observed transition in workflow state
+
+  - id: TRUST_BOUNDARY_SHIFT
+    status: seed
+    meaning: observed movement across declared authority boundary
+
+  - id: REPLAY_INCONSISTENCY
+    status: seed
+    meaning: replay result does not match expected continuity
+
+  - id: EVIDENCE_READY_FOR_REVIEW
+    status: seed
+    meaning: evidence package is sufficient for manual adjudication

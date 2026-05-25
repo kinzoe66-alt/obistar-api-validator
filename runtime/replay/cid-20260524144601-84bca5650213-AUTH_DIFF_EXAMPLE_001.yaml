@@ -1,0 +1,13 @@
+replay:
+  continuity_id: cid-20260524144601-84bca5650213-AUTH_DIFF_EXAMPLE_001
+  action_file: runtime\actions\example-authorized-differential.yaml
+  action_id: AUTH_DIFF_EXAMPLE_001
+  intent: governed_authorization_differential_validation
+  authorized_scope: true
+  active_symbols:
+  - AUTHORIZATION_CONTEXT_CHANGE
+  - WORKFLOW_STATE_TRANSITION
+  result: LAWFUL_FOR_MANUAL_REVIEW
+  classification: REVIEW_REQUIRED
+  reason: validated inside governed tunnel
+  terminal_state: queued_for_manual_review

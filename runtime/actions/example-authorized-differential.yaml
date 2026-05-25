@@ -1,0 +1,18 @@
+action:
+  id: AUTH_DIFF_EXAMPLE_001
+
+intent:
+  type: governed_authorization_differential_validation
+
+scope:
+  authorized: true
+
+observations:
+  authorization_context_change: true
+  workflow_state_transition: true
+  trust_boundary_shift: false
+
+evidence:
+  source: synthetic_local_example
+  destructive_mutation: false
+  autonomous_submission: false
