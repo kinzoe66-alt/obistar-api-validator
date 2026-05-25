@@ -1,0 +1,9 @@
+manual_review_item:
+  continuity_id: cid-20260524150118-c63b2f1a6c23-AUTH_DIFF_OBSERVATION_001
+  source_package: runtime\evidence\packages\cid-20260524150118-c63b2f1a6c23-AUTH_DIFF_OBSERVATION_001.yaml
+  classification: REVIEW_REQUIRED
+  active_symbols:
+  - AUTHORIZATION_CONTEXT_CHANGE
+  - WORKFLOW_STATE_TRANSITION
+  review_state: queued_for_manual_review
+  autonomous_submission: false

@@ -1,0 +1,17 @@
+action:
+  id: AUTH_DIFF_OBSERVATION_001
+intent:
+  type: governed_authorization_differential_validation
+scope:
+  authorized: true
+surface:
+  id: local_surface_001
+observations:
+  authorization_context_change: true
+  workflow_state_transition: true
+  trust_boundary_shift: false
+evidence:
+  source: synthetic_local_example
+  reproducible: true
+  destructive_mutation: false
+  autonomous_submission: false

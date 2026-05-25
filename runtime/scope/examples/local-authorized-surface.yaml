@@ -1,0 +1,20 @@
+surface:
+  id: local_surface_001
+  authority: authorized_scope_only
+  environment: governed_validation
+  mutation_allowed: false
+  autonomous_submission: false
+
+workflow_expectations:
+  - authorization_context_observation
+  - workflow_state_transition_observation
+  - replay_required
+  - evidence_required
+  - manual_review_required
+
+trust_boundaries:
+  - declared_surface
+  - authorization_context
+  - workflow_state
+  - evidence_package
+  - manual_review_queue

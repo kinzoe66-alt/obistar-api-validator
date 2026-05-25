@@ -1,0 +1,30 @@
+pressure_test:
+  iterations: 5
+  framing: governed_validation_only
+  external_execution: false
+  results:
+    - iteration: 1
+      runtime_ms: 1930
+      continuity_id: cid-20260524150107-90e97c8efe20-AUTH_DIFF_OBSERVATION_001
+      classification: REVIEW_REQUIRED
+      terminal_state: queued_for_manual_review
+    - iteration: 2
+      runtime_ms: 1980
+      continuity_id: cid-20260524150110-f65d1c3d7229-AUTH_DIFF_OBSERVATION_001
+      classification: REVIEW_REQUIRED
+      terminal_state: queued_for_manual_review
+    - iteration: 3
+      runtime_ms: 1997
+      continuity_id: cid-20260524150113-4a55c5758802-AUTH_DIFF_OBSERVATION_001
+      classification: REVIEW_REQUIRED
+      terminal_state: queued_for_manual_review
+    - iteration: 4
+      runtime_ms: 1984
+      continuity_id: cid-20260524150115-538cf2cc98f6-AUTH_DIFF_OBSERVATION_001
+      classification: REVIEW_REQUIRED
+      terminal_state: queued_for_manual_review
+    - iteration: 5
+      runtime_ms: 1996
+      continuity_id: cid-20260524150118-c63b2f1a6c23-AUTH_DIFF_OBSERVATION_001
+      classification: REVIEW_REQUIRED
+      terminal_state: queued_for_manual_review

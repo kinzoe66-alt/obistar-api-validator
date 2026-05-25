@@ -1,0 +1,24 @@
+observation:
+  id: observation_001
+  surface_id: local_surface_001
+  source: synthetic_local_example
+
+  authorized_scope: true
+
+  authorization_context:
+    before: user_scope
+    after: elevated_workflow_state
+    changed: true
+
+  workflow_state:
+    before: initialized
+    after: transition_observed
+    changed: true
+
+  trust_boundary:
+    shifted: false
+
+  evidence:
+    reproducible: true
+    destructive_mutation: false
+    autonomous_submission: false
